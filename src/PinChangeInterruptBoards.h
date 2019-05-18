@@ -79,7 +79,7 @@ THE SOFTWARE.
 // Attiny x5
 #define PCINT_INPUT_PORT0 PINB
 
-#elif defined(__AVR_ATtiny13__)
+#elif defined(__AVR_ATtiny13__) || defined(__AVR_ATtiny13A__)
 // Attiny 13A
 #define PCINT_INPUT_PORT0 PINB
 #ifndef portInputRegister
